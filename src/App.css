@@ -1,0 +1,181 @@
+/* @import '~primereact/resources/themes/saga-blue/theme.css';
+@import '~primereact/resources/primereact.min.css';
+@import '~primeicons/primeicons.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.italiana {
+  font-family: 'Italiana', serif;
+}
+.p-dock-list-container{
+  background-color: #e7f8a359;
+
+}
+
+.text-italic {
+  font-style: italic;
+}
+.skills-button{
+  background-color: #E7F8A3;
+  color: black;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+}
+.skills-button:hover{
+  background-color: #cee37c;
+  border: none;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.p-dock-action {
+  height: 90px;
+  width: 90px;
+}
+.p-dock-action:hover {
+  cursor: pointer;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.title-text {
+  flex-direction: row;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  font-size: 5.2em;
+}
+
+.profile-image {
+  width: 58rem;
+  height: 58rem;
+  border-radius: 50%;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.profile-description {
+  padding-top: 40px;
+}
+
+.description-color {
+  color: white;
+}
+
+.skills-description-color {
+  color: hsl(252deg 73.57% 64.49%);
+}
+.typewriter {
+  border-right: .15em solid black;
+  white-space: nowrap;
+  height: 150px;
+  align-content: center;
+  overflow: hidden;
+  animation: typewriter 4s steps(40, end) infinite, blink-caret .75s step-end infinite;
+}
+
+@keyframes typewriter {
+  0% { width: 0; }
+  40% { width: 100%; }
+  100% { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.sonia {
+  color: #ccecac;
+  padding-left: 18px;
+}
+
+.skills-header {
+  font-size: larger;
+  font-weight: 500;
+  text-decoration: underline;
+  color: hsl(39deg 21.01% 15.94%);
+}
+
+.skills-text {
+  color: hsl(251.73deg 51.42% 52.85%);
+  font-size: small;
+}
+
+.move-up {
+  transform: translateY(-50px) !important;
+}
+
+.show-bullets {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+
+.show-hover-text {
+  position: relative;
+}
+
+.show-hover-text::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: .5em;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.show-hover-text:hover::after {
+  opacity: 1;
+}
+
+.div-content{
+  padding-bottom: 100px !important;
+}
+
+.datavizlogo {
+  padding-top: 2px;
+}
+
+body {
+  background: #d17947;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "<div class='flex flex-row'><p>Insight Edge -&nbsp;</p><p class='text-italic'> Instagram Suite</p></div>",
+    "logo": "/img/insightEdge.png",
+    "description": "For my Digital Technology Immersion Practicum, my team and I worked with Meta's Instagram Product Manager to ideate and design a suite of tools called 'Insight Edge' to enhance the content creation process on Instagram.",
+    "link": "",
+    "tools": [
+      "Figma"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>Prisoner Express App –&nbsp;</p><p class='text-italic'> App Design & Prototyping</p></div>",
+    "logo": "/img/prisonerExpress.png",
+    "description": "For my App Design & Prototyping course, I worked with the Prisoner Express client to conduct User Research, ideate on designs, and finally prototype the design into a PWA application for both Prisoners and Prisoner Express admins' use.",
+    "link": "",
+    "tools": [
+      "VueJS",
+      "Figma",
+      "PrimeVue",
+      "Bootstrap",
+      "Git"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>CaptionCore -&nbsp;</p><p class='text-italic'> Designing Data Products</p></div>",
+    "logo": "/img/captionCore.png",
+    "description": "For my Designing Data Products course, under the guidance of the esteemed Lutz Finger, my team and I designed and developed a data product called 'CaptionCore' that helps companies generate brand-focused captions for Instagram posts using a Machine Learning model.",
+    "link": "",
+    "tools": [
+      "Streamlit",
+      "BLIP",
+      "AI",
+      "Git"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>Microsoft Course Registration System -&nbsp;</p><p class='text-italic'> MPS Project</p></div>",
+    "logo": "/img/msCourse.png",
+    "description": "For my Graduate MPS Project, I worked with Microsoft client to conduct User Research, brainstorm & design, and then Prototype a Course Registration website to showcase Microsoft Azure Database's capabilities.",
+    "link": "",
+    "tools": [
+      "AngularJS",
+      "Figma",
+      "PrimeNG",
+      "Git"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>BeautyAI -&nbsp;</p><p class='text-italic'> Human Computer Interaction Project</p></div>",
+    "logo": "/img/beautyAi.png",
+    "description": "For my Human Computer Interaction course, I conducted User Research, Designed & Prototyped on Figma, and conducted Usability Testing for a BeautyAI app that helps users find the right beauty products for their varied and unique skin tones, shades, and facial compositions.",
+    "link": "",
+    "tools": [
+      "Figma"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>Swift Songs Decoded -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
+    "logo": "/img/swiftTunes.png",
+    "description": "For my Interactive Information Visualization project, I decided to create a visualization on Taylor Swift's songs to analyze each songs danceability, acousticness, energy and danceability, as well the colors mentioned in the song. I created this visualization using a Radar chart and Circular barplot, in D3.js.",
+    "link": "",
+    "tools": [
+      "Figma",
+      "D3.js",
+      "Git"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>Under the Covers -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
+    "logo": "/img/underCovers.png",
+    "description": "For my Interactive Information Visualization project, I explored Couples' Sleeping apart habits, reasons and preferences. This visualization was developed in D3.js and incorporated into an article themed after the famed Netflix show 'Bridgerton'.",
+    "link": "",
+    "tools": [
+      "Figma",
+      "D3.js",
+      "Git"
+    ]
+  },
+  {
+    "name": "<div class='flex flex-row'><p>Portfolio -&nbsp;</p><p class='text-italic'> Sonia Sunil</p></div>",
+    "logo": "/img/portfolio.png",
+    "description": "For this Portfolio, I designed the layout, typography and colors on Figma and developed it in React utilizing PrimeReact and ReactSpring for animations.",
+    "link": "",
+    "tools": [
+      "Figma",
+      "React",
+      "Git"
+    ]
+  }
+]

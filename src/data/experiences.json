@@ -1,0 +1,31 @@
+[
+  {
+    "logo": "dbslogo.png",
+    "company": "DBS Bank Singapore",
+    "website": "https://www.dbs.com/default.page",
+    "role": "Software Engineer - Frontend Developer / UI Lead",
+    "time": "2021 - 2023",
+    "bullet points": [
+      "Spearheaded front-end development for the Treasury and Markets Risk Control Tower (RICO) project.",
+      "Directed and guided the UI design and development of the RICO project from the start of 2022 as the project’s UI lead.",
+      "Engineered the UI of a centralized dashboard using AngularJS, implementing a Micro-frontend Architecture.",
+      "Proficiently utilized third-party packages - PrimeNg, AnyChart, ChartJS, NG-Dynamic-forms, GraphQL/Apollo Client.",
+      "Maintained the codebase, prioritizing and advocating component reusability and optimizing coding procedures.",
+      "Collaborated closely with Business Analysts, Quality Engineers, and UX designers to refine and enhance the UI/UX.",
+      "Contributed to a 'Solutions Lab' side project aimed at prototyping an automated solution for bank business processes. The prototype secured the runner-up position and was subsequently integrated into the RICO project."
+    ]
+  },
+  {
+    "logo": "pslove.png",
+    "company": "Pslove Pte Ltd Singapore",
+    "website": "https://getblood.com/",
+    "role": "Software Developer Intern - Frontend Developer",
+    "time": "2019 - 2019",
+    "bullet points": [
+      "Collaborated closely with the technology team to strategize, develop, deploy, test, and maintain the UI for their Period Tracker Application’s e-commerce screens.",
+      "Self-learned Dart Programming and Flutter framework, pivotal for iOS and Android mobile application development.",
+      "Conducted comprehensive end-to-end user testing, ensuring the seamless functionality of application features.",
+      "Utilized Firebase data analytical tools and user feedback to evaluate user engagement levels with features, raising retention levels on its second phase."
+    ]
+  }
+]
