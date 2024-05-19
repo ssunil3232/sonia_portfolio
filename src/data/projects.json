@@ -6,7 +6,8 @@
     "link": "",
     "tools": [
       "Figma"
-    ]
+    ],
+    "id": "project-insight-edge"
   },
   {
     "name": "<div class='flex flex-row'><p>Prisoner Express App –&nbsp;</p><p class='text-italic'> App Design & Prototyping</p></div>",
@@ -19,7 +20,8 @@
       "PrimeVue",
       "Bootstrap",
       "Git"
-    ]
+    ],
+    "id": "project-prisoner-express"
   },
   {
     "name": "<div class='flex flex-row'><p>CaptionCore -&nbsp;</p><p class='text-italic'> Designing Data Products</p></div>",
@@ -31,7 +33,8 @@
       "BLIP",
       "AI",
       "Git"
-    ]
+    ],
+    "id": "project-caption-core"
   },
   {
     "name": "<div class='flex flex-row'><p>Microsoft Course Registration System -&nbsp;</p><p class='text-italic'> MPS Project</p></div>",
@@ -43,7 +46,8 @@
       "Figma",
       "PrimeNG",
       "Git"
-    ]
+    ],
+    "id": "project-ms-course"
   },
   {
     "name": "<div class='flex flex-row'><p>BeautyAI -&nbsp;</p><p class='text-italic'> Human Computer Interaction Project</p></div>",
@@ -52,7 +56,8 @@
     "link": "",
     "tools": [
       "Figma"
-    ]
+    ],
+    "id": "project-beauty-ai"
   },
   {
     "name": "<div class='flex flex-row'><p>Swift Songs Decoded -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
@@ -63,7 +68,8 @@
       "Figma",
       "D3.js",
       "Git"
-    ]
+    ],
+    "id": "project-swift-tunes"
   },
   {
     "name": "<div class='flex flex-row'><p>Under the Covers -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
@@ -74,7 +80,8 @@
       "Figma",
       "D3.js",
       "Git"
-    ]
+    ],
+    "id": "project-under-covers"
   },
   {
     "name": "<div class='flex flex-row'><p>Portfolio -&nbsp;</p><p class='text-italic'> Sonia Sunil</p></div>",
@@ -85,6 +92,7 @@
       "Figma",
       "React",
       "Git"
-    ]
+    ],
+    "id": "project-portfolio"
   }
 ]
