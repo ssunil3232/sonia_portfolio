@@ -57,6 +57,22 @@
   font-style: normal;
 }
 
+/* .p-scrolltop .p-scrolltop-icon {
+  height: 3rem;
+  width: 3rem;
+} */
+.p-scrolltop {
+  background-color: #00000059 !important;
+  padding: 0.6rem;
+}
+
+.back-btn {
+  background-color: #00000059 !important;
+  width: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
 .nanum-myeongjo-extrabold {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 800;

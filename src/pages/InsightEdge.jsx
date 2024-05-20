@@ -7,11 +7,23 @@ import findings from '../img/insightEdge/findings.png';
 import aspiring from '../img/insightEdge/aspiring.png';
 import emerging from '../img/insightEdge/emerging.png';
 import toolDetails from '../img/insightEdge/toolDetails.png';
+import firstGif from '../img/insightEdge/first.gif';
+import secGif from '../img/insightEdge/second.gif';
+import thirdGif from '../img/insightEdge/third.gif';
+import fourthGif from '../img/insightEdge/fourth.gif';
+import fifthGif from '../img/insightEdge/fifth.gif';
+import sixthGif from '../img/insightEdge/sixth.gif';
+import teamPicture from '../img/insightEdge/teamPicture.png';
+import wireframe from '../img/insightEdge/wireframe.png';
+import { ScrollTop } from 'primereact/scrolltop';
+import { Button } from 'primereact/button';
+import { useNavigate } from 'react-router-dom';
 
 const InsightEdge = () => {
    //const navigate = useNavigate();
+   const navigate = useNavigate();
    return (
-      <div className="flex w-screen flex-col items-center overflow-x-hidden" style={{ backgroundImage: `url(${backgroundSvg})`, backgroundSize: 'cover' }}>
+      <div className="flex w-screen flex-col items-center overflow-x-hidden relative" style={{ backgroundImage: `url(${backgroundSvg})`, backgroundSize: 'cover'}}>
          <div className='flex flex-row justify-evenly items-center' style={{ marginTop: '150px', marginLeft: '50px' }}>
             <div className="title" style={{ fontSize: '8rem' }}>
                <div className='poiret-one-regular'>UNLOCKING</div>
@@ -96,24 +108,77 @@ const InsightEdge = () => {
          <div className="grid grid-cols-3 w-screen gap-3">
             <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
                #Feature 1
-               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px'}}>
-               Optimal Placement and Color Recommendation
+               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
+                  Optimal Placement and Color Recommendation
                </span>
+               <div>
+                  <img src={firstGif} alt="firstGif" style={{ height: '400px', marginTop: 20, marginBottom: 20 }} />
+               </div>
             </div>
             <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
                #Feature 2
-               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px'}}>
-               AI-Powered Caption & Hashtag Generation
+               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
+                  AI-Powered Caption & Hashtag Generation
                </span>
+               <div>
+                  <img src={secGif} alt="secondGif" style={{ height: '400px', marginTop: 20, marginBottom: 20 }} />
+               </div>
             </div>
             <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
                #Feature 3
-               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px'}}>
-               Instagram-Ready Color Adjustment
+               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
+                  Instagram-Ready Color Adjustment
                </span>
+               <div>
+                  <img src={thirdGif} alt="thirdGif" style={{ height: '400px', marginTop: 20, marginBottom: 20 }} />
+               </div>
             </div>
          </div>
+         <div className="grid grid-cols-3 w-screen gap-3">
+            <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
+               #Feature 4
+               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
+                  Visual Transition Order Recommendation
+               </span>
+               <div>
+                  <img src={fourthGif} alt="fourthGif" style={{ height: '400px', marginTop: 20, marginBottom: 50 }} />
+               </div>
+            </div>
+            <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
+               #Feature 5
+               <span className='inter-light flex text-center w-[60%]' style={{ fontSize: '20px' }}>
+                  Non-Engagement & Audience Segmentation Analysis
+               </span>
+               <div>
+                  <img src={fifthGif} alt="fifthGif" style={{ height: '400px', marginTop: 20, marginBottom: 50 }} />
+               </div>
+            </div>
+            <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
+               #Feature 6
+               <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
+                  Collaborative Editing & Review
+               </span>
+               <div>
+                  <img src={sixthGif} alt="sixthGif" style={{ height: '400px', marginTop: 20, marginBottom: 50 }} />
+               </div>
+            </div>
+         </div>
+         <div className='nanum-myeongjo-regular w-[80%]' style={{ textAlign: 'center', fontSize: '20px', marginBottom: 50 }}>
+            Our project <span className='nanum-myeongjo-extrabold'>won the ‘Best Presentation’ award</span> for well-thought through and well designed wireframes that conveyed our feature ideas. As well, our solution was praised for its ability to be seamlessly integrated with existing Instagram tools, and utilizing AI enhancements, which could give Instagram a competitive edge!
+         </div>
+         <div>
+            <img src={teamPicture} alt="teamPicture" style={{ height: '400px', marginBottom: 50 }} />
+         </div>
+         <div className='nanum-myeongjo-extrabold w-[90%]' style={{ fontSize: '25px' }}>
+            Wireframe Link
+         </div>
+         <a href="https://www.figma.com/design/BI2XetztSbvG5K00XR1eOT/User-Stories?node-id=128%3A1214&t=HXJJebhBfwa50Anq-1" target="_blank" title="Wireframe Link" style={{ marginBottom: 50 }}>
+            <img style={{ height: 300 }} src={wireframe} />
+         </a>
+         <ScrollTop />
+         <Button className='back-btn' onClick={() => navigate(-1)} icon="pi pi-arrow-left" aria-label="back" style={{position: 'fixed', right:'10px', top: '10px'}} />
       </div>
+      
    );
 };
 
