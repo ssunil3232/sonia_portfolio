@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import HomePage from './pages/HomePage';
 import InsightEdge from './pages/InsightEdge';
+import PrisonerExpress from "./pages/PrisonerExpress";
 
 // function App() {
   
@@ -28,6 +29,7 @@ function App() {
        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/project-insight-edge" element={<InsightEdge />} />
+          <Route path="/project-prisoner-express" element={<PrisonerExpress />} />
        </Routes>
     </>
  );
