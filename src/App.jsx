@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import HomePage from './pages/HomePage';
 import InsightEdge from './pages/InsightEdge';
 import PrisonerExpress from "./pages/PrisonerExpress";
+import MSCourseReg from "./pages/MSCourseReg";
 
 // function App() {
   
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/project-insight-edge" element={<InsightEdge />} />
           <Route path="/project-prisoner-express" element={<PrisonerExpress />} />
+          <Route path="/project-ms-course" element={<MSCourseReg />} />
        </Routes>
     </>
  );
