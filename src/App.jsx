@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import InsightEdge from './pages/InsightEdge';
 import PrisonerExpress from "./pages/PrisonerExpress";
 import MSCourseReg from "./pages/MSCourseReg";
+import BeautyAi from "./pages/BeautyAi";
 
 // function App() {
   
@@ -32,6 +33,7 @@ function App() {
           <Route path="/project-insight-edge" element={<InsightEdge />} />
           <Route path="/project-prisoner-express" element={<PrisonerExpress />} />
           <Route path="/project-ms-course" element={<MSCourseReg />} />
+          <Route path="/project-beauty-ai" element={<BeautyAi />} />
        </Routes>
     </>
  );

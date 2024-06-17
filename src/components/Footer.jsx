@@ -20,7 +20,7 @@ const Footer = React.forwardRef((props, ref) => {
 
             <div className="flex flex-row items-center space-x-3">
               <img src={phone} />
-              <p style={{ color: '#D17947' }}>123-456-7890</p>
+              <p style={{ color: '#D17947' }}>607-327-2965</p>
             </div>
           </div>
         </div>
