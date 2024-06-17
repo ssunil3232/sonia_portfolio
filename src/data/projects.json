@@ -24,19 +24,6 @@
     "id": "project-prisoner-express"
   },
   {
-    "name": "<div class='flex flex-row'><p>CaptionCore -&nbsp;</p><p class='text-italic'> Designing Data Products</p></div>",
-    "logo": "/img/captionCore.png",
-    "description": "For my Designing Data Products course, under the guidance of the esteemed Lutz Finger, my team and I designed and developed a data product called 'CaptionCore' that helps companies generate brand-focused captions for Instagram posts using a Machine Learning model.",
-    "link": "",
-    "tools": [
-      "Streamlit",
-      "BLIP",
-      "AI",
-      "Git"
-    ],
-    "id": "project-caption-core"
-  },
-  {
     "name": "<div class='flex flex-row'><p>Microsoft Course Registration System -&nbsp;</p><p class='text-italic'> MPS Project</p></div>",
     "logo": "/img/msCourse.png",
     "description": "For my Graduate MPS Project, I worked with Microsoft client to conduct User Research, brainstorm & design, and then Prototype a Course Registration website to showcase Microsoft Azure Database's capabilities.",
@@ -58,6 +45,19 @@
       "Figma"
     ],
     "id": "project-beauty-ai"
+  },
+  {
+    "name": "<div class='flex flex-row'><p>CaptionCore -&nbsp;</p><p class='text-italic'> Designing Data Products</p></div>",
+    "logo": "/img/captionCore.png",
+    "description": "For my Designing Data Products course, under the guidance of the esteemed Lutz Finger, my team and I designed and developed a data product called 'CaptionCore' that helps companies generate brand-focused captions for Instagram posts using a Machine Learning model.",
+    "link": "",
+    "tools": [
+      "Streamlit",
+      "BLIP",
+      "AI",
+      "Git"
+    ],
+    "id": "project-caption-core"
   },
   {
     "name": "<div class='flex flex-row'><p>Swift Songs Decoded -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
