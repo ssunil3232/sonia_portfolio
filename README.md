@@ -1,52 +1,10 @@
-# 2024 WICC Workshop
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Contributions](#contributions)
-- [Deployment](#deployment)
-- [License](#usage-and-attribution)
+# Sonia's Portfolio
 
 ## Introduction
 
-This is a personal website/portfolio template used for the WICC 2024 workshop. It's built with [React](https://reactjs.org).
+This is a personal website/portfolio created to display my frontend and UX skills. It's built with [React](https://reactjs.org).
 
-You can view the Figma file of this template [here](https://www.figma.com/file/uTyUhNtDpYuW5mKwm6eT2S/Workshop-Template?type=design&mode=design&t=tMpD9KjtmPxIvPP1-1).
-
-## Prerequisites
-
-- Node.js
-- npm
-
-## Getting Started
-
-Make sure you have Node.js and npm (or Yarn) installed on your system. You can install Node.js from the official Node.js website.
-
-1. **Fork the repository:**
-
-   - In the upper right corner of the repository page, click on the "Fork" button. This will create a copy of the repository in your GitHub account.
-
-2. **Clone the repository:**
-
-   - On your forked repository page, click on the "Code" button. This will reveal a URL. Click on the clipboard icon next to the URL to copy it.
-   - Then in your terminal, navigate to the directory where you want to clone the repository.
-   - Use the `git clone` command followed by the repository URL you copied earlier: `git clone <repository-url>`
-
-3. **Install Dependencies:**
-
-   - In your terminal, run `npm install`
-
-4. **You're done!**
-   - Run `npm run dev` to view the site!
-
-## Contributions
-
-This project was created with contributions from:
-
-- **Design**: Laura Wu
-- **Implementation**: Dora Weng
+You can view the Figma file of its design [here](https://www.figma.com/design/zejBbik9iR1ncRUyAGmqH8/Portfolio-Design?node-id=91%3A6&t=OwPATItw4SVgnei0-1).
 
 ## Deployment
 
