@@ -137,7 +137,7 @@ const MSCourseReg = () => {
                     </div>
                     <div className='flex justify-center w-[90%]' style={{ marginTop: '10px', marginBottom: '50px' }}>
                         <video width="60%" height="auto" controls>
-                            <source src={{ paperPrototype }} type="video/mp4" />
+                            <source src={paperPrototype} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
