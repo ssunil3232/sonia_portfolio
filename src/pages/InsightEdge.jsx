@@ -1,4 +1,4 @@
-import backgroundSvg from '../img/insightEdge/InsightEdge.svg';
+import backgroundSvg from '../img/insightEdge/insightEdge.svg';
 import graphic1 from '../img/insightEdge/graphic1.png';
 import logo from '../img/insightEdge/logo.png';
 import suite from '../img/insightEdge/suiteDisplay.png';
