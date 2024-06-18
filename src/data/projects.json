@@ -50,7 +50,7 @@
     "name": "<div class='flex flex-row'><p>CaptionCore -&nbsp;</p><p class='text-italic'> Designing Data Products</p></div>",
     "logo": "/img/captionCore.png",
     "description": "For my Designing Data Products course, under the guidance of the esteemed Lutz Finger, my team and I designed and developed a data product called 'CaptionCore' that helps companies generate brand-focused captions for Instagram posts using a Machine Learning model.",
-    "link": "",
+    "link": "https://github.com/ssunil3232/caption-generator",
     "tools": [
       "Streamlit",
       "BLIP",
@@ -63,7 +63,7 @@
     "name": "<div class='flex flex-row'><p>Swift Songs Decoded -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
     "logo": "/img/swiftTunes.png",
     "description": "For my Interactive Information Visualization project, I decided to create a visualization on Taylor Swift's songs to analyze each songs danceability, acousticness, energy and danceability, as well the colors mentioned in the song. I created this visualization using a Radar chart and Circular barplot, in D3.js.",
-    "link": "",
+    "link": "https://sonia-sunil-d3.onrender.com/",
     "tools": [
       "Figma",
       "D3.js",
@@ -75,7 +75,7 @@
     "name": "<div class='flex flex-row'><p>Under the Covers -&nbsp;</p><p class='text-italic'> Interactive Information Visualization</p></div>",
     "logo": "/img/underCovers.png",
     "description": "For my Interactive Information Visualization project, I explored Couples' Sleeping apart habits, reasons and preferences. This visualization was developed in D3.js and incorporated into an article themed after the famed Netflix show 'Bridgerton'.",
-    "link": "",
+    "link": "https://sonia-sunil-d3.onrender.com/",
     "tools": [
       "Figma",
       "D3.js",
@@ -87,7 +87,7 @@
     "name": "<div class='flex flex-row'><p>Portfolio -&nbsp;</p><p class='text-italic'> Sonia Sunil</p></div>",
     "logo": "/img/portfolio.png",
     "description": "For this Portfolio, I designed the layout, typography and colors on Figma and developed it in React utilizing PrimeReact and ReactSpring for animations.",
-    "link": "",
+    "link": "https://github.com/ssunil3232/sonia_portfolio",
     "tools": [
       "Figma",
       "React",

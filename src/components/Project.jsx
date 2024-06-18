@@ -12,12 +12,19 @@ const Project = () => {
         >
           <div className="flex flex-row items-center">
             <div className="font-semibold text-xl justify-between" style={{ color: "white", width: '100%' }} dangerouslySetInnerHTML={{ __html: data.name }} />
-            {/* <a href="">
+            {data.link === "" ? (
+              <Link to={`/${data.id}`}>
+                <img src={link} className="h-10" />
+              </Link>
+            ) : (
+              <a href={data.link} target="_blank" rel="noopener noreferrer">
+                <img src={link} className="h-10" />
+              </a>
+            )
+            }
+            {/* <Link to={`/${data.id}`}>
               <img src={link} className="h-10" />
-            </a> */}
-            <Link to={`/${data.id}`}>
-              <img src={link} className="h-10" />
-            </Link>
+            </Link> */}
           </div>
           <div className="flex flex-row sm:flex-col space-x-5 justify-start">
             <img
