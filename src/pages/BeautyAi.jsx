@@ -8,6 +8,7 @@ import backgroundReverse from '../img/beautyAi/backgroundReverse.png';
 import paperPrototype from '../img/beautyAi/paperPrototype.mp4';
 import participants from '../img/beautyAi/participants.png';
 import figma from '../img/beautyAi/figma.png';
+import persona from '../img/beautyAi/personaCard.png';
 import recruitment from '../img/beautyAi/recruitment.png';
 import affinity from '../img/beautyAi/affinity.jpg';
 import presentation from '../img/beautyAi/presentation.png';
@@ -90,7 +91,7 @@ const MSCourseReg = () => {
                         By keeping in mind the insights, we refined the problem statement and then created a persona to identify with.
                     </div>
                     <div className='flex justify-center w-[90%]'>
-                        <img src={insights} alt="insights" style={{ height: '500px', marginBottom: 50, marginTop: 20 }} />
+                        <img src={persona} alt="persona" style={{ height: '400px', marginBottom: 10, marginTop: 20 }} />
                     </div>
                 </div>
                 <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
