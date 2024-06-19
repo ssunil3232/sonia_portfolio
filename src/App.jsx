@@ -6,6 +6,7 @@ import InsightEdge from './pages/InsightEdge';
 import PrisonerExpress from "./pages/PrisonerExpress";
 import MSCourseReg from "./pages/MSCourseReg";
 import BeautyAi from "./pages/BeautyAi";
+import { Analytics } from "@vercel/analytics/react"
 
 // function App() {
   
@@ -35,6 +36,7 @@ function App() {
           <Route path="/project-ms-course" element={<MSCourseReg />} />
           <Route path="/project-beauty-ai" element={<BeautyAi />} />
        </Routes>
+       <Analytics />
     </>
  );
 };
