@@ -18,7 +18,7 @@ import resume from "../assets/resume.pdf";
 import resumelogo from "../assets/resumeIcon.png";
 import contact from "../assets/contact.svg";
 import projects from "../assets/projects.svg";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const HomePage = () => {
     //const navigate = useNavigate();
@@ -32,6 +32,8 @@ const HomePage = () => {
         x: 0,
         from: { opacity: 0, x: 20 },
     });
+    const [position, setPosition] = useState('right');
+    const [dock, setDock] = useState('end');
     const [showSkills, setShowSkills] = useState(false);
     const [showBackground, setShowBackground] = useState(true);
     const menu = [
@@ -57,19 +59,34 @@ const HomePage = () => {
             }
         }
     ];
+    useEffect(() => {
+        const updatePosition = () => {
+            const width = window.innerWidth;
+            if (width >= 768) { // 'md' starts at 768px, so 'md' and 'lg' will use 'right'
+                setPosition('right');
+                setDock('end');
+            } else { // 'sm' and below will use 'top'
+                setPosition('top');
+                setDock('center');
+            }
+        };
+        updatePosition();
+        window.addEventListener('resize', updatePosition);
+        return () => window.removeEventListener('resize', updatePosition);
+    }, []);
     return (
         <>
-            <Dock model={menu} position='right' style={{
+            <Dock model={menu} position={position} style={{
                 position: 'fixed', right: 0, width: '100%', display: 'flex',
-                justifyContent: 'end'
+                justifyContent: dock
             }} />
             <section className="min-h-screen lg:w-[85%] md:w-[85%] sm:w-[100%] flex mx-auto items-center justify-start">
                 <div className="flex flex-row sm:flex-col space-x-10 sm:space-x-0 ">
                     <div className="flex flex-col justify-center items-start space-y-5 text-base mx-5" style={{ marginTop: '90px', marginBottom: '100px' }}>
-                        <p className="title-text flex flex-col items-start">
+                        <div className="title-text flex flex-col items-start">
                             <p style={{ lineHeight: '0.8', fontSize: '4rem' }}>Hello I am,</p>
                             <p className="sonia">Sonia</p>
-                        </p>
+                        </div>
 
                         <p className="profile-description space-y-5" style={{ fontSize: '50px' }}>
                             I am a <span className="description-color" style={{ lineHeight: '0.9' }}>Frontend Developer | UX Designer</span>
