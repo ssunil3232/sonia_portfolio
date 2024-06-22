@@ -5,7 +5,7 @@ const Footer = React.forwardRef((props, ref) => {
 
   return (
     <footer ref={ref} className="bg-[#F3E3EE] flex flex-row space-y-4 test-base w-screen" style={{ marginTop: -50 }}>
-      <div className="bg-[#f88f52] p-10 rounded-tl-3xl rounded-tr-3xl px-24 flex flex-row w-screen">
+      <div className="bg-[#f88f52] p-10 rounded-tl-3xl rounded-tr-3xl flex flex-row w-screen">
         <div >
           <div className="font-semibold title-text mb-0" style={{ fontSize: '3rem', color: '#d0f9a7' }}>Contact Me</div>
           <div className="my-3" style={{ fontSize: '1.2rem'}}>

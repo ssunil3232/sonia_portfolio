@@ -62,7 +62,7 @@ const HomePage = () => {
                 position: 'fixed', right: 0, width: '100%', display: 'flex',
                 justifyContent: 'end'
             }} />
-            <section className="min-h-screen w-[85%] flex mx-auto items-center justify-start">
+            <section className="min-h-screen lg:w-[85%] md:w-[85%] sm:w-[100%] flex mx-auto items-center justify-start">
                 <div className="flex flex-row sm:flex-col space-x-10 sm:space-x-0 ">
                     <div className="flex flex-col justify-center items-start space-y-5 text-base mx-5" style={{ marginTop: '90px', marginBottom: '100px' }}>
                         <p className="title-text flex flex-col items-start">
@@ -137,7 +137,7 @@ const HomePage = () => {
                             <li>Others: <span className="skills-text">PrimeNg, PrimeFlex, GraphQL/Apollo Client, Tailwind CSS, Bootstrap, Material-UI, Scrum methodology</span></li>
                         </ul>
                     </div>}
-                    {showBackground && <div className="skillset w-[100%] sm:w-[90%] md:w-[100%] justify-center items-center flex flex-row sm:flex-col-reverse md:flex-col-reverse">
+                    {showBackground && <div className="skillset w-[100%] sm:w-[100%] md:w-[100%] justify-center items-center flex flex-row sm:flex-col-reverse md:flex-col-reverse">
                         <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] sm:mb-[10%]">
                             <img
                                 src={nus}
@@ -178,7 +178,7 @@ const HomePage = () => {
             </section>
             <section ref={projectsRef} className="bg-[#FFFFFF] min-h-screen w-screen flex justify-center move-up">
                 <div className="bg-[#F3E3EE] flex w-screen flex-row justify-evenly rounded-t-3xl">
-                    <div className="flex flex-col mb-5 mt-5 mr-5 items-center space-y-5 w-[100%]">
+                    <div className="flex flex-col mb-5 mt-5 items-center space-y-5 w-[100%]">
                         <div className="w-[80%]">
                             <div className="flex italiana font-medium section-title">Projects</div>
                             <div className="text-base">
