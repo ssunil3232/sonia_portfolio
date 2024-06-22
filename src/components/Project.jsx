@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 const Project = () => {
   return (
     <>
+    <div className="flex flex-row flex-wrap justify-center items-start">
       {projects.map((data, index) => (
         <div
           key={index}
-          className="w-[80%] sm:w-[90%] bg-[#665566] p-12 rounded-3xl shadow-xl flex flex-col space-y-5 text-base mb-5"
+          className="bg-[#665566] lg:w-[50%] lg:min-w-[700px] p-12 rounded-3xl shadow-xl flex flex-col space-y-5 text-base mb-5 mx-3"
         >
           <div className="flex flex-row items-center">
             <div className="font-semibold text-xl justify-between" style={{ color: "white", width: '100%' }} dangerouslySetInnerHTML={{ __html: data.name }} />
@@ -26,7 +27,7 @@ const Project = () => {
               <img src={link} className="h-10" />
             </Link> */}
           </div>
-          <div className="flex flex-row sm:flex-col space-x-5 justify-start">
+          <div className="flex space-x-5 justify-start  sm:flex-col">
             <img
               src={data.logo}
               alt="project logo"
@@ -50,6 +51,7 @@ const Project = () => {
           </div>
         </div>
       ))}
+      </div>
     </>
   );
 };

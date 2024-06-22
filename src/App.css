@@ -45,6 +45,37 @@
   font-style: normal;
   line-height: 8rem;
 }
+.poiret-one-regular-header {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 8rem;
+  font-size: 10rem;
+}
+
+
+@media screen and (max-width: 800px) {
+  .poiret-one-regular {
+    line-height: 6rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .poiret-one-regular-header {
+    line-height: 6rem;
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .poiret-one-regular {
+    line-height: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .poiret-one-regular-header {
+    line-height: 6rem;
+    font-size: 5rem;
+  }
+}
 .nanum-myeongjo-regular {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
@@ -119,7 +150,8 @@
   flex-direction: row;
   display: flex;
   font-family: "Quicksand", sans-serif;
-  font-size: 5.2em;
+  font-size: 150px;
+  margin-bottom: 50px;
 }
 
 .profile-image {
@@ -133,11 +165,36 @@
 }
 
 .profile-description {
+  /* padding-top: 40px; */
+  white-space: normal;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .profile-description {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+}
+
+.profile-description-main {
   padding-top: 40px;
+  white-space: normal;
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  .profile-description-main {
+    font-size: large; /* Adjust font size for smaller screens */
+  }
 }
 
 .description-color {
   color: white;
+}
+.containter-class {
+  width: 100%; /* Ensure the container width is responsive */
+  max-width: 960px; 
 }
 
 .skills-description-color {
@@ -164,10 +221,35 @@
 }
 
 .sonia {
-  color: #ccecac;
-  padding-left: 18px;
+  color: #d0f9a7;
+  font-size: 15rem;
+  line-height: 0.8;
 }
 
+@media screen and (max-width: 1014px) {
+  .sonia {
+    font-size: 8rem;
+  }
+}
+.section-title {
+  font-size: 5rem;
+}
+@media screen and (max-width: 1014px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+.project-card {
+  flex-direction: row!important;
+}
+
+/* @media screen and (max-width: 1500px) {
+  .project-card {
+    flex-direction: column!important;
+  }
+  
+} */
 .skills-header {
   font-size: larger;
   font-weight: 500;
@@ -221,7 +303,7 @@
 }
 
 body {
-  background: #d17947;
+  background: #f88f52;;
 }
 
 @keyframes logo-spin {

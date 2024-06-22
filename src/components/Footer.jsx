@@ -4,28 +4,26 @@ import React from 'react';
 const Footer = React.forwardRef((props, ref) => {
 
   return (
-    <footer ref={ref} className="bg-[#ECD0E4] flex flex-row space-y-4 test-base w-screen" style={{ marginTop: -50 }}>
-      <div className="bg-[#E7F8A3] p-10 rounded-tl-3xl rounded-tr-3xl px-24 flex flex-row w-screen">
+    <footer ref={ref} className="bg-[#F3E3EE] flex flex-row space-y-4 test-base w-screen" style={{ marginTop: -50 }}>
+      <div className="bg-[#f88f52] p-10 rounded-tl-3xl rounded-tr-3xl px-24 flex flex-row w-screen">
         <div >
-          <div className="font-semibold title-text" style={{ fontSize: '2rem' }}>Contact Me</div>
-          <div className="my-3">
-            Feel free to reach out to me if you're looking for a Frontend Developer, UX designer, Product Engineeer, have a
+          <div className="font-semibold title-text mb-0" style={{ fontSize: '3rem', color: '#d0f9a7' }}>Contact Me</div>
+          <div className="my-3" style={{ fontSize: '1.2rem'}}>
+            Feel free to reach out to me if you're looking for a Frontend Developer, UX designer, Product Engineer, have a
             query, or simply want to connect.
           </div>
           <div>
             <div className="flex flex-row items-center space-x-3">
               <img src={email} />
-              <p style={{ color: '#D17947' }}>soniasunil47@gmail.com | ss3587@cornell.edu</p>
+              <p style={{ color: '#d0f9a7', fontSize: '1.2rem' }}>soniasunil47@gmail.com | ss3587@cornell.edu</p>
             </div>
 
             <div className="flex flex-row items-center space-x-3">
               <img src={phone} />
-              <p style={{ color: '#D17947' }}>607-327-2965</p>
+              <p style={{ color: '#d0f9a7', fontSize: '1.2rem' }}>607-327-2965</p>
             </div>
           </div>
         </div>
-        {/* <div style={{ width: 100, background: 'black', marginLeft: 72, marginTop:-50, marginBottom:-40 }}></div> */}
-        <div style={{ width: 50, background: 'black', marginLeft: 22.5, marginTop:-50, marginBottom:-40 }}></div>
       </div>
     </footer>
   );

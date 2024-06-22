@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Home';
 import InsightEdge from './pages/InsightEdge';
 import PrisonerExpress from "./pages/PrisonerExpress";
 import MSCourseReg from "./pages/MSCourseReg";

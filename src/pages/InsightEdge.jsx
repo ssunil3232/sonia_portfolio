@@ -25,13 +25,13 @@ const InsightEdge = () => {
    return (
       <div className="flex w-screen flex-col items-center overflow-x-hidden relative" style={{ backgroundImage: `url(${backgroundSvg})`, backgroundSize: 'cover'}}>
          <div className='flex flex-row justify-evenly items-center' style={{ marginTop: '150px', marginLeft: '50px' }}>
-            <div className="title" style={{ fontSize: '8rem' }}>
+            <div className="title text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
                <div className='poiret-one-regular'>UNLOCKING</div>
                <div className='poiret-one-regular'>INSTAGRAM'S</div>
                <div className='poiret-one-regular'>POTENTIAL</div>
                <img src={logo} alt="logo" style={{ height: '50px', width: '290px' }} />
             </div>
-            <img src={graphic1} alt="graphic1" style={{ height: '450px', width: '450px' }} />
+            <img src={graphic1} className="block sm:hidden" alt="graphic1" style={{ height: '450px', width: '450px' }} />
          </div>
          <div>
             <img src={suite} alt="suite" />
@@ -105,7 +105,7 @@ const InsightEdge = () => {
          <div style={{ marginTop: '20px', marginBottom: '20px' }}>
             <img src={toolDetails} alt="toolDetails" style={{ width: '600px' }} />
          </div>
-         <div className="grid grid-cols-3 w-screen gap-3">
+         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-screen gap-3">
             <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
                #Feature 1
                <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
@@ -134,7 +134,7 @@ const InsightEdge = () => {
                </div>
             </div>
          </div>
-         <div className="grid grid-cols-3 w-screen gap-3">
+         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-screen gap-3">
             <div className='inter-semibold flex justify-center items-center flex-col' style={{ fontSize: '25px', marginTop: '20px', color: '#8C8383' }}>
                #Feature 4
                <span className='inter-light flex text-center w-[50%]' style={{ fontSize: '20px' }}>
