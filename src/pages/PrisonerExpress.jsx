@@ -48,7 +48,7 @@ const PrisonerExpress = () => {
             <div className='nanum-myeongjo-regular w-[65%]' style={{ textAlign: 'center', fontSize: '25px' }}>
                Prisoner Express creates an opportunity for incarcerated individuals to get information, education and a public forum for creative self-expression. Through newsletters and programs they hope to step through the isolation and alienation of prison life, bringing hope and fostering a sense of community among prisoners.
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   Problem Statement
                </div>
@@ -56,7 +56,7 @@ const PrisonerExpress = () => {
                   Increased scrutiny, regulations and expense surrounding the delivery of physical mails to prisoners have mandated the need to move the contents of the Prisoner Express newsletter digital. Thus, the primary goal of this project was to create a <span className='nanum-myeongjo-bold'>seamless app experience that emulates the feeling of physical letters or writings</span> for incarcerated individuals. Given that almost all prisoners have a tablet of their own, this project envisions an application that can be installed onto tablets to bring a similar experience as that of a physical newsletter.
                </div>
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   User Research
                </div>
@@ -96,7 +96,7 @@ const PrisonerExpress = () => {
                   </div>
                </div>
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   Affinity Diagram
                </div>
@@ -111,7 +111,7 @@ const PrisonerExpress = () => {
                <img src={cursor} alt="cursor" className='sm:h-[70%] lg:h-[50%] md:h-[55%] sm:right-[-20%] lg:right-[-10%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[-15%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
                {/* <img src={cursor} alt="cursor" style={{ height: '200px', position: 'absolute', right: '-150px', bottom: '-50px' }} /> */}
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   User Personas & Task Scenarios
                </div>
@@ -124,7 +124,7 @@ const PrisonerExpress = () => {
                <div className='nanum-myeongjo-regular w-[80%]'>
                   Our primary users are incarcerated individuals who have limited connections and knowledge of the world outside the confines of prison walls. As such, they desire a human connection and validation, which they get from reading other prisoners’ experiences, knowledge of the outside world, and when they get to share their feelings and experiences. However, they have limited resources to fuel this desire due to limited internet access and receiving up-to-date content.
                </div>
-               <div className='flex items-center sm:w-[80%] lg:w-[90%] md:w-[80%] justify-center'>
+               <div className='flex items-center sm:w-[80%] lg:w-[80%] md:w-[80%] justify-center'>
                   <img src={prisoner} alt="prisoner" className='sm:w-[100%] lg:w-[70%] md:w-[100%]' style={{ marginTop: '20px', }} />
                </div>
                <div className='flex items-center w-[90%] justify-center'>
@@ -132,7 +132,7 @@ const PrisonerExpress = () => {
                      <div className='inter-light flex justify-start items-start' style={{ fontSize: '20px', marginTop: '20px', color: '#8C8383' }}>
                         Goals & Task Scenarios
                      </div>
-                     <div className='flex items-center sm:w-[90%] lg:w-[100%] md:w-[90%] justify-center'>
+                     <div className='flex items-center sm:w-[90%] lg:w-[87%] md:w-[90%] justify-center'>
                         <img src={task1} alt="task1" className='sm:w-[100%] lg:w-[70%] md:w-[100%]' style={{ marginTop: '20px', }} />
                      </div>
                   </div>
@@ -143,7 +143,7 @@ const PrisonerExpress = () => {
                <div className='nanum-myeongjo-regular w-[80%]'>
                   Our administrative users are the admins of Prisoner Express who compile the content and resources to publish in the Newsletter to distribute to prisoners, that is updated quarterly. They publish work sent by prisoners and other educational program content that prisoners might be interested in, so as to give prisoners the opportunity to improve their mental well-being and learning. However, there are lots of mails that come through, and keeping track and ensuring each prisoner gets recognized is a hassle. As well, due to differing technical literacy of prisoners, they would want to provide content in an inclusive manner.
                </div>
-               <div className='flex items-center sm:w-[80%] lg:w-[90%] md:w-[80%] justify-center'>
+               <div className='flex items-center sm:w-[80%] lg:w-[80%] md:w-[80%] justify-center'>
                   <img src={admin} alt="admin" className='sm:w-[100%] lg:w-[70%] md:w-[100%]' style={{ marginTop: '20px', }} />
                </div>
                <div className='flex items-center w-[90%] justify-center'>
@@ -151,20 +151,20 @@ const PrisonerExpress = () => {
                      <div className='inter-light flex justify-start items-start' style={{ fontSize: '20px', marginTop: '20px', color: '#8C8383' }}>
                         Goals & Task Scenarios
                      </div>
-                     <div className='flex items-center sm:w-[90%] lg:w-[100%] md:w-[90%] justify-center'>
+                     <div className='flex items-center sm:w-[90%] lg:w-[87%] md:w-[90%] justify-center'>
                         <img src={task2} alt="task2" className='sm:w-[100%] lg:w-[70%] md:w-[100%]' style={{ marginTop: '20px', }} />
                      </div>
                   </div>
                </div>
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   Brainstorming & Ideation
                </div>
                <div className='nanum-myeongjo-regular w-[80%]'>
                   We then proceeded to research existing reading app interfaces, pasting them on an <span className='nanum-myeongjo-bold'>“Idea Board”</span> and highlighting features we felt gelled and wanted our app to consider incorporating. We reviewed apps like <span className='nanum-myeongjo-bold'>FBReader, Kindle, AppleBooks, Barnes & Noble, and RecipeKeeper</span> to brainstorm ideas for our Primary users. For the Administrative users, we referenced apps like <span className='nanum-myeongjo-bold'>Cornell’s Canvas and Quizlet</span> app.
                </div>
-               <div style={{ position: 'relative' }} className='flex items-center sm:w-[80%] lg:w-[90%] md:w-[80%] justify-center'>
+               <div style={{ position: 'relative' }} className='flex items-center sm:w-[80%] lg:w-[80%] md:w-[80%] justify-center'>
                   <a href="https://www.figma.com/board/ZhovCH4zplCXi5do2lVPFF/Idea-Board-for-Prisoner-Express-App?node-id=0-1&t=qqnfSlB1AGa8EbD4-1" target="_blank" rel="noopener noreferrer">
                      <img src={idea} alt="idea" style={{ marginTop: '20px', marginBottom: '20px' }} />
                   </a>
@@ -173,7 +173,7 @@ const PrisonerExpress = () => {
                <div className='nanum-myeongjo-regular w-[80%]'>
                   Taking all of these findings, we sketched out a design flow of what we envisioned the app to look like and features it should include. We then wore the hats of users and <span className='nanum-myeongjo-bold'>walked through each task scenario</span> we had created with the design, to assess if the features and functionalities incorporated allowed the users to perform the task scenarios smoothly. This evaluation brought about some design changes, which culminated in our <span className='nanum-myeongjo-bold'>Final Design</span>.
                </div>
-               <div style={{ position: 'relative' }} className='sm:w-[80%] md:w-[80%] lg:w-[90%]'>
+               <div style={{ position: 'relative' }} className='sm:w-[80%] md:w-[80%] lg:w-[80%]'>
                   <a href="https://www.figma.com/board/MhCNAdnU4ZEkhDyAnHmMkM/Design-Flows?node-id=0-1&t=aX20NYmzJCllQQfR-1" target="_blank" rel="noopener noreferrer">
                      <img src={final} alt="final" className='sm:w-[100%]' style={{ marginTop: '20px', marginBottom: '20px' }} />
                   </a>
@@ -181,7 +181,7 @@ const PrisonerExpress = () => {
                   {/* <img src={click3} alt="click3" style={{ height: '200px', position: 'absolute', right: '400px', bottom: '50px' }} /> */}
                </div>
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   Prototyping in VueJS
                </div>
@@ -205,7 +205,7 @@ const PrisonerExpress = () => {
                   <img src={proto4} alt="proto4" className=' lg:w-[48%]' />
                </div>
             </div>
-            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+            <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                   Usability Testing
                </div>
@@ -224,7 +224,7 @@ const PrisonerExpress = () => {
                   <img src={pres1} alt="presentation" className='w-[58%] mr-3' style={{ marginBottom: 50 }} />
                   <img src={pres2} alt="presentation" className='w-[40%]' style={{ marginBottom: 50 }} />
                </div>
-               <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+               <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                   <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                      Artifacts:
                   </div>

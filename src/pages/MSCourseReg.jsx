@@ -45,7 +45,7 @@ const MSCourseReg = () => {
                 <div className='nanum-myeongjo-regular w-[65%]' style={{ textAlign: 'center', fontSize: '25px', marginBottom: 50 }}>
                     The purpose of this project was to design a high-fidelity university course registration system utilizing Microsoft Azure cloud services. The final result is a full-stack system consisting of the student frontend perspective and the backend Azure SQL database database necessary to support this.
                 </div>
-                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px' }}>
+                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px', marginBottom: 20 }}>
                         Project Goals
                     </div>
@@ -55,7 +55,7 @@ const MSCourseReg = () => {
                         <img src={contribution} alt="contribution" className='lg:w-[20%] md:w-[30%] sm:w-[50%]' style={{ borderRadius: 10 }} />
                     </div>
                 </div>
-                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                         User Research - Primary & Secondary
                     </div>
@@ -69,15 +69,37 @@ const MSCourseReg = () => {
                         </a>
                         . The following are user <span className='nanum-myeongjo-bold'>pain points</span> highlighted by several respondents:
                     </div>
-                    <div className='flex justify-center items-center lg:w-[85%] sm:w-[80%] md:w-[80%] flex-row flex-wrap'>
-                        {[1, 2, 3, 4, 5, 6].map((index) => (
+                    <div className='flex justify-center mt-3 items-center lg:w-[80%] sm:w-[80%] md:w-[80%] flex-row flex-wrap'>
                             <img
-                                key={index}
-                                src={eval(`pt${index}`)}
-                                alt={`painPoint ${index}`}
+                                src={pt1}
+                                alt={`painPoint1`}
                                 style={{ height: '150px', borderRadius: 10 }}
                             />
-                        ))}
+                             <img
+                                src={pt2}
+                                alt={`painPoint1`}
+                                style={{ height: '150px', borderRadius: 10 }}
+                            />
+                             <img
+                                src={pt3}
+                                alt={`painPoint1`}
+                                style={{ height: '150px', borderRadius: 10 }}
+                            />
+                             <img
+                                src={pt4}
+                                alt={`painPoint1`}
+                                style={{ height: '150px', borderRadius: 10 }}
+                            />
+                             <img
+                                src={pt5}
+                                alt={`painPoint1`}
+                                style={{ height: '150px', borderRadius: 10 }}
+                            />
+                             <img
+                                src={pt6}
+                                alt={`painPoint1`}
+                                style={{ height: '150px', borderRadius: 10 }}
+                            />
                     </div>
                     <div className='inter-semibold' style={{ fontSize: '20px', color: '#8C8383', marginTop: '50px' }}>
                         Secondary Research:
@@ -88,7 +110,7 @@ const MSCourseReg = () => {
                             <span style={{ color: '#610a0c', fontWeight: '900', textDecoration: 'underline' }}>Case Study slide deck</span>
                         </a>.
                     </div>
-                    <div className='flex justify-center lg:w-[90%] sm:w-[80%] md:w-[80%] items-center lg:flex-row md:flex-col sm:flex-col' style={{ marginTop: '40px' }}>
+                    <div className='flex justify-center lg:w-[80%] sm:w-[80%] md:w-[80%] items-center lg:flex-row md:flex-col sm:flex-col' style={{ marginTop: '40px' }}>
                         <img src={cornellPrev} alt="secondaryResearch" className='lg:w-[30.3%] sm:w-[80%] md:w-[80%]  pt-3' />
                         <img src={cmuPrev} alt="secondaryResearch" className='lg:w-[30%] sm:w-[80%] md:w-[80%]' />
                         <img src={nusPrev} alt="secondaryResearch" className='lg:w-[28.4%] pb-2 sm:w-[80%] md:w-[80%]' />
@@ -103,7 +125,7 @@ const MSCourseReg = () => {
                     </a>
                     <img src={cursor} alt="cursor" className='sm:h-[70%] lg:h-[50%] md:h-[55%] sm:right-[-20%] lg:right-[-10%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[-15%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
                 </div>
-                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                         Figma Prototypes
                     </div>
@@ -111,19 +133,19 @@ const MSCourseReg = () => {
                         We then delved into detailing the Figma Prototype, including <span className='nanum-myeongjo-bold'>Lo-fi, Mid-fi, and Hi-fi Prototypes</span>. This comprehensive approach ensures a clear and systematic understanding of the essential elements guiding the course registration system’s development.
                     </div>
                 </div>
-                <div className='flex lg:flex-row sm:flex-col lg:w-[100%] sm:w-[80%] justify-center' style={{ marginTop: '20px', position: 'relative' }}>
-                    <a className='mx-5' href="https://www.figma.com/design/MooiMOAVEL7Oe0OiI0wp5R/Lo-Fi-Prototype?node-id=0-1&t=4IdGsfycJpHyoOJc-1" target="_blank" title="Lo-Fi Prototype">
-                        <img src={lofi} alt="lofi" style={{ height: '300px', marginBottom: 50 }} />
+                <div className='flex lg:flex-row sm:flex-col lg:w-[80%] sm:w-[80%] justify-center' style={{ marginTop: '20px', position: 'relative' }}>
+                    <a className='mx-5 lg:w-[30%]' href="https://www.figma.com/design/MooiMOAVEL7Oe0OiI0wp5R/Lo-Fi-Prototype?node-id=0-1&t=4IdGsfycJpHyoOJc-1" target="_blank" title="Lo-Fi Prototype">
+                        <img src={lofi} alt="lofi" style={{ marginBottom: 50 }} />
                     </a>
-                    <a className='mx-5' href="https://www.figma.com/design/w25Fq3HTZC20cfcb1wEaQR/Mid-Fi-Prototype?node-id=697-6&t=8bUwtuAQMtx0idjK-1" target="_blank" title="Mid-Fi Prototype">
-                        <img src={midfi} alt="midfi" style={{ height: '300px', marginBottom: 50 }} />
+                    <a className='mx-5 lg:w-[30%]' href="https://www.figma.com/design/w25Fq3HTZC20cfcb1wEaQR/Mid-Fi-Prototype?node-id=697-6&t=8bUwtuAQMtx0idjK-1" target="_blank" title="Mid-Fi Prototype">
+                        <img src={midfi} alt="midfi" style={{  marginBottom: 50 }} />
                     </a>
-                    <a className='mx-5' href="https://www.figma.com/design/WXSxqGwZogvZwJUQpvP73B/Hi-Fi-Prototype?node-id=697-6&t=Z0zfmZrIgfx6dmHK-1" target="_blank" title="Hi-Fi Prototype">
-                        <img src={hifi} alt="hifi" style={{ height: '300px', marginBottom: 50 }} />
+                    <a className='mx-5 lg:w-[30%]' href="https://www.figma.com/design/WXSxqGwZogvZwJUQpvP73B/Hi-Fi-Prototype?node-id=697-6&t=Z0zfmZrIgfx6dmHK-1" target="_blank" title="Hi-Fi Prototype">
+                        <img src={hifi} alt="hifi" style={{  marginBottom: 50 }} />
                     </a>
                     <img src={star} alt="star" style={{ height: '200px', position: 'absolute', right: '0px', bottom: '-50px' }} />
                 </div>
-                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-regular w-[80%]'>
                         In developing the prototype, we implemented a&nbsp;
                         <a href="https://www.figma.com/design/rjzrqWxZ1CkClEYtEd54yE/Design-System_Style-Guide-%26-Components?node-id=491-1064&t=0k6uosuUcul1ruxe-1" target="_blank" title="Design System">
@@ -132,14 +154,14 @@ const MSCourseReg = () => {
                         from Cornell University. It was chosen as an illustrative example due to our accessibility to its resources. This intentional design choice ensures scalability, facilitating the seamless replacement of colors to align with those of other universities. Within this framework, we integrated PrimeNG Components for development purposes, contributing to a cohesive and visually consistent design system for the prototype.
                     </div>
                 </div>
-                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '150px', marginTop: '20px' }}>
+                <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
                         Frontend Development
                     </div>
                     <div className='nanum-myeongjo-regular w-[80%]'>
                         As for the frontend, I developed it using <span className='nanum-myeongjo-bold'>AngularJs framework</span> and utilised third-party packages <span className='nanum-myeongjo-bold'>PrimeNG, PrimeFlex and FullCalendar.io</span>. PrimeNG is an AngularJS-compatible library with UI components that make development faster, cleaner, and more efficient. It is combined with PrimeFlex, a responsive CSS utility library to accompany Prime UI libraries. The most challenging component to develop was the Scheduler screen, as we needed a third-party component compatible with AngularJS. Hence, after much investigation, we used FullCalendar, which had most of the functionalities we needed for our development. However, as we need Premium features to fully display all the features we planned to develop, our Scheduler as of now, is only capable of displaying static data.
                     </div>
-                    <div className='flex justify-center items-center lg:w-[90%] sm:w-[80%] md:w-[80%]'>
+                    <div className='flex justify-center items-center lg:w-[80%] sm:w-[80%] md:w-[80%]'>
                         <img src={frontend} alt="frontend" className='sm:w-[80%] md:w-[80%] lg:w-[40%]' style={{ marginBottom: 50, marginTop: 20 }} />
                     </div>
                 </div>
