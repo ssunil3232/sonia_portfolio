@@ -106,7 +106,7 @@ const PrisonerExpress = () => {
             </div>
             <div style={{ position: 'relative' }} className='sm:w-[80%] lg:w-[80%] md:w-[80%]'>
                <a href="https://www.figma.com/board/mOhCaLDCwLS0LPKF4HtwBv/Prisoner-Express-Affinity-Diagram?node-id=0-1&t=TeS1PB1sBUZ3F0l6-1" target="_blank" rel="noopener noreferrer">
-                  <img src={affinity} alt="affinity" className='sm:h-[40%] lg:h-[70%]' />
+                  <img src={affinity} alt="affinity" />
                </a>
                <img src={cursor} alt="cursor" className='sm:h-[70%] lg:h-[40%] md:h-[55%] sm:right-[-20%] lg:right-[-10%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[-15%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
                {/* <img src={cursor} alt="cursor" style={{ height: '200px', position: 'absolute', right: '-150px', bottom: '-50px' }} /> */}
