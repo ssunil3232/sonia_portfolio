@@ -26,7 +26,7 @@ const Footer = React.forwardRef((props, ref) => {
             </div>
           </div>
         </div>
-        <div className="bg-[#f88f52] p-2 w-screen flex justify-center">© Designed and Developed in React by Sonia ✨</div>
+        <div className="bg-[#f88f52] p-2 w-screen flex justify-center">© Designed & Developed in React by Sonia ✨</div>
       </div>
     </footer>
   );
