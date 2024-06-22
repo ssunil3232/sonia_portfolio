@@ -14,7 +14,8 @@ import Footer from "../components/Footer.jsx";
 import { useTrail, animated } from 'react-spring';
 import { Dock } from 'primereact/dock';
 import aboutme from "../assets/aboutme.svg";
-import experience from "../assets/experience.svg";
+import resume from "../assets/resume.pdf";
+import resumelogo from "../assets/resumeIcon.png";
 import contact from "../assets/contact.svg";
 import projects from "../assets/projects.svg";
 import React, { useState } from 'react';
@@ -87,7 +88,7 @@ const HomePage = () => {
                             <div className="h-2 w-2 bg-green-500 rounded-full mr-2"></div>
                             <p>Avaliable for new projects</p>
                         </div>
-                        <div className="flex flex-row h-12 space-x-2 pl-3 items-center">
+                        <div className="flex flex-row h-12 space-x-2 items-center">
                             <a href="https://github.com/ssunil3232" target="_blank" title="GitHub" className="show-hover-text">
                                 <img style={{ height: 70 }} src={githublogo} />
                             </a>
@@ -99,6 +100,9 @@ const HomePage = () => {
                             </a>
                             <a href="mailto:soniasunil47@gmail.com?cc=ss3587@cornell.edu" title="Email" className="show-hover-text">
                                 <img style={{ height: 65 }} src={emaillogo} />
+                            </a>
+                            <a href={resume} target="_blank" title="Resume" className="show-hover-text">
+                                <img className="m-[10px]" style={{ height: 50 }} src={resumelogo} />
                             </a>
                         </div>
                     </div>
