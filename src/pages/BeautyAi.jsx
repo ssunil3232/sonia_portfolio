@@ -63,13 +63,13 @@ const MSCourseReg = () => {
                     <div className='nanum-myeongjo-regular w-[80%]'>
                         Extracting our raw interview notes, we created a descriptive <span className='nanum-myeongjo-extrabold'>Session Essay on each interview</span> that describes the interview setting, process, users responses, reactions and demonstrations. We then created <span className='nanum-myeongjo-extrabold'>Activity Notes from each session essay</span>, which we categorized under the following <span className='nanum-myeongjo-extrabold'>Affinity Diagram</span>.
                     </div>
-                    <div style={{ position: 'relative' }} className='sm:w-[80%] md:w-[80%] lg:w-[80%]'>
-                        <a href="https://miro.com/app/board/uXjVK7eeTlM=/?share_link_id=93610415847" target="_blank" rel="noopener noreferrer">
-                            <img src={affinity} alt="affinity" className='sm:h-[40%] lg:h-[10%]' />
-                        </a>
-                        <img src={cursor} alt="cursor" className='sm:h-[50%] lg:h-[30%] md:h-[55%] sm:right-[-10%] lg:right-[-5%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[0%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
-                        {/* <img src={cursor} alt="cursor" style={{ height: '200px', position: 'absolute', right: '-150px', bottom: '-50px' }} /> */}
-                    </div>
+                </div>
+                <div style={{ position: 'relative' }} className='sm:w-[80%] lg:w-[60%] md:w-[80%]'>
+                    <a href="https://miro.com/app/board/uXjVK7eeTlM=/?share_link_id=93610415847" target="_blank" rel="noopener noreferrer">
+                        <img src={affinity} alt="affinity" />
+                    </a>
+                    <img src={cursor} alt="cursor" className='sm:h-[50%] lg:h-[30%] md:h-[55%] sm:right-[-10%] lg:right-[-5%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[0%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
+                    {/* <img src={cursor} alt="cursor" style={{ height: '200px', position: 'absolute', right: '-150px', bottom: '-50px' }} /> */}
                 </div>
                 <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
@@ -101,7 +101,7 @@ const MSCourseReg = () => {
                         The following are the requirements we realized our solution has to meet, based off our research thus far. <span className='nanum-myeongjo-bold'>Our solution must be able to:</span>
                     </div>
                     <div className='flex justify-center lg:w-[80%] sm:w-[80%] md:w-[80%]'>
-                        <img src={requirements} alt="requirements" className='lg:w-[60%] md:w-[100%]' style={{  marginBottom: 50, marginTop: 20 }} />
+                        <img src={requirements} alt="requirements" className='lg:w-[60%] md:w-[100%]' style={{ marginBottom: 50, marginTop: 20 }} />
                     </div>
                 </div>
                 <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%' }}>
@@ -125,7 +125,7 @@ const MSCourseReg = () => {
                         We then identified <span className='nanum-myeongjo-extrabold' style={{ color: '#B93278' }}>4 primary pillars</span> to implement in our solution:
                     </div>
                     <div className='flex flex-col justify-center items-center w-[90%]' style={{ marginBottom: '50px' }}>
-                        <img src={pillar} alt="pillar" className='sm:w-[70%] lg:w-[40%] md:w-[50%]'/>
+                        <img src={pillar} alt="pillar" className='sm:w-[70%] lg:w-[40%] md:w-[50%]' />
                     </div>
                 </div>
                 <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%' }}>

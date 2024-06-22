@@ -70,36 +70,36 @@ const MSCourseReg = () => {
                         . The following are user <span className='nanum-myeongjo-bold'>pain points</span> highlighted by several respondents:
                     </div>
                     <div className='flex justify-center mt-3 items-center lg:w-[80%] sm:w-[80%] md:w-[80%] flex-row flex-wrap'>
-                            <img
-                                src={pt1}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
-                             <img
-                                src={pt2}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
-                             <img
-                                src={pt3}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
-                             <img
-                                src={pt4}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
-                             <img
-                                src={pt5}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
-                             <img
-                                src={pt6}
-                                alt={`painPoint1`}
-                                style={{ height: '150px', borderRadius: 10 }}
-                            />
+                        <img
+                            src={pt1}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
+                        <img
+                            src={pt2}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
+                        <img
+                            src={pt3}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
+                        <img
+                            src={pt4}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
+                        <img
+                            src={pt5}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
+                        <img
+                            src={pt6}
+                            alt={`painPoint1`}
+                            style={{ height: '150px', borderRadius: 10 }}
+                        />
                     </div>
                     <div className='inter-semibold' style={{ fontSize: '20px', color: '#8C8383', marginTop: '50px' }}>
                         Secondary Research:
@@ -119,11 +119,11 @@ const MSCourseReg = () => {
                         Subsequently, using Figma, we synthesized the case study features, identifying five pivotal modules crucial to the student course registration experience: <span className='nanum-myeongjo-bold'>the Home Page, Course Catalog, Schedule, Registration, and Student Information modules</span>. This analysis formed the basis for our Research Analysis, where we distilled key feature takeaways and defined must-haves and nice-to-haves based on our findings.
                     </div>
                 </div>
-                <div style={{ position: 'relative', marginTop: '20px' }} className='sm:w-[90%] lg:w-[70%]'>
+                <div style={{ position: 'relative', marginTop: '20px' }} className='sm:w-[80%] lg:w-[60%] md:w-[80%]'>
                     <a href="https://www.figma.com/board/jeSb53KDMHuS19KytU4ipJ/Course-Registration_Case-Study-Feature-Synthesis?node-id=0-1&t=taHA45dyBOxfHHOS-1" target="_blank" rel="noopener noreferrer">
-                        <img src={featureAnalysis} alt="featureAnalysis" className='sm:h-[40%] lg:h-[70%]' />
+                        <img src={featureAnalysis} alt="featureAnalysis"/>
                     </a>
-                    <img src={cursor} alt="cursor" className='sm:h-[70%] lg:h-[50%] md:h-[55%] sm:right-[-20%] lg:right-[-10%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[-15%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
+                    <img src={cursor} alt="cursor" className='sm:h-[60%] lg:h-[40%] md:h-[50%] sm:right-[-20%] lg:right-[-10%] md:right-[-20%] sm:bottom-[-20%] lg:bottom-[-15%] md:bottom-[-20%]' style={{ position: 'absolute' }} />
                 </div>
                 <div className='flex flex-col justify-start w-screen' style={{ marginLeft: '20%', marginTop: '20px' }}>
                     <div className='nanum-myeongjo-extrabold' style={{ fontSize: '25px' }}>
@@ -138,10 +138,10 @@ const MSCourseReg = () => {
                         <img src={lofi} alt="lofi" style={{ marginBottom: 50 }} />
                     </a>
                     <a className='mx-5 lg:w-[30%]' href="https://www.figma.com/design/w25Fq3HTZC20cfcb1wEaQR/Mid-Fi-Prototype?node-id=697-6&t=8bUwtuAQMtx0idjK-1" target="_blank" title="Mid-Fi Prototype">
-                        <img src={midfi} alt="midfi" style={{  marginBottom: 50 }} />
+                        <img src={midfi} alt="midfi" style={{ marginBottom: 50 }} />
                     </a>
                     <a className='mx-5 lg:w-[30%]' href="https://www.figma.com/design/WXSxqGwZogvZwJUQpvP73B/Hi-Fi-Prototype?node-id=697-6&t=Z0zfmZrIgfx6dmHK-1" target="_blank" title="Hi-Fi Prototype">
-                        <img src={hifi} alt="hifi" style={{  marginBottom: 50 }} />
+                        <img src={hifi} alt="hifi" style={{ marginBottom: 50 }} />
                     </a>
                     <img src={star} alt="star" style={{ height: '200px', position: 'absolute', right: '0px', bottom: '-50px' }} />
                 </div>
