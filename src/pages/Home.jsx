@@ -6,6 +6,7 @@ import nus from "../assets/nus.svg";
 import pslove from "../assets/pslove.svg";
 import aimpower from "../assets/aimpower.svg";
 import aiecd from "../assets/aiecd.svg";
+import self from "../assets/self.svg";
 import location from "/src/img/location.svg";
 import linkedinlogo from "/src/img/linkedin.svg";
 import emaillogo from "../img/email.svg";
@@ -20,6 +21,7 @@ import resumelogo from "../assets/resumeIcon.png";
 import contact from "../assets/contact.svg";
 import projects from "../assets/projects.svg";
 import React, { useState, useEffect } from 'react';
+import Grid from '@mui/material/Grid';
 
 const HomePage = () => {
     //const navigate = useNavigate();
@@ -83,14 +85,14 @@ const HomePage = () => {
             }} />
             <section className="min-h-screen lg:w-[85%] md:w-[85%] sm:w-[100%] flex mx-auto items-center justify-start">
                 <div className="flex flex-row sm:flex-col space-x-10 sm:space-x-0 ">
-                    <div className="flex flex-col justify-center items-start space-y-5 text-base mx-5" style={{ marginTop: '90px', marginBottom: '100px' }}>
+                    <div className="intro-header flex flex-col justify-center items-start space-y-5 text-base mx-5" style={{ marginBottom: '50px' }}>
                         <div className="title-text flex flex-col items-start">
                             <p style={{ lineHeight: '0.8', fontSize: '4rem' }}>Hello I am,</p>
                             <p className="sonia">Sonia</p>
                         </div>
 
                         <p className="profile-description space-y-5" style={{ fontSize: '50px' }}>
-                            I am a <span className="description-color" style={{ lineHeight: '0.9' }}>Frontend Developer | UX Designer</span>
+                            <span className="description-color" style={{ lineHeight: '0.9' }}>Frontend Developer | <br/>UX Designer</span>
                         </p>
                         <p className="profile-description space-y-5" style={{ fontSize: '25px' }}>
                             <span style={{ fontStyle: 'italic' }}>with</span> a knack for <span className="description-color">designing & developing</span> creative and aesthetically appealing User Interfaces.
@@ -124,23 +126,23 @@ const HomePage = () => {
                             </a>
                         </div>
                     </div>
-                    {/* <div className="flex justify-center">
+                    <div className="flex justify-center">
                         <img
                             src={self}
                             alt="Profile Picture"
-                            className="object-contain profile-image sm:h-72"
+                            className="object-contain profile-image sm:h-50"
                         />
-                    </div> */}
+                    </div>
                     {/* <div style={{ width: 50, background: 'black', marginLeft: 150 }}></div>
                     <div style={{ width: 100, background: '#E7F8A3', marginLeft: 0 }}></div> */}
                 </div>
             </section>
-            <section ref={aboutMeRef} className="bg-[#FFFFFF] min-h-screen w-[100%] flex justify-center rounded-t-3xl">
-                <div className="flex flex-col items-start space-y-5 w-[80%]">
+            <section ref={aboutMeRef} className="bg-[#FFFFFF] h-[100%] w-[100%] flex justify-center rounded-t-3xl">
+                <div className="flex flex-col items-start space-y-5 w-[80%] flex h-[100%]">
                     <div className="flex font-medium italiana section-title" >More about me!</div>
-                    <p>Hailing from the little red dot, Singapore, I have always been in touch with my creative side, thus it was natural to pursue UI/UX.</p>
-                    <p>My journey started with my undergraduate in Computer Engineering, where I interned as a frontend developer with a local Startup Pslove (now rebranded 'Blood'). I enjoyed frontend developement so much, I decided to join DBS Bank Singapore as a frontend developer, where I worked for 2 years. It was there that I delved into frontend development, UX Design and Product Engineering, honing my craft in user interface development and problem solving with design. To expand my knowledge further, I decided to pursue a Masters in Information Science at Cornell where I focused on Human Computer Interaction (HCI), Frontend development, UX design and Product management.</p>
-                    <p>Currently, I am working as a frontend developer for a US-based NGO 'AImpower.org'.</p>
+                    <p>Hailing from the <span className="emphasis-line">little red dot, Singapore,</span> I have always been in touch with my creative side, thus it was natural to pursue UI/UX.</p>
+                    <p>My journey started with my <span className="emphasis-line">undergraduate in Computer Engineering</span>, where I <span className="emphasis-line">interned as a frontend developer</span> with a local Startup Pslove (now rebranded 'Blood'). I enjoyed frontend developement so much, I decided to join DBS Bank Singapore as a <span className="emphasis-line">frontend developer, where I worked for 2 years</span>. It was there that I delved into frontend development, UX Design and Product Engineering, honing my craft in user interface development and problem solving with design. To expand my knowledge further, I decided to pursue a <span className="emphasis-line">Masters in Information Science at Cornell</span> where I focused on <span className="emphasis-line">Human Computer Interaction (HCI)</span>, Frontend development, UX design and Product management.</p>
+                    <p>Currently, I am working as a frontend developer for US-based startups AImpower.org and AI ECD.</p>
                     <p>My goal is to develop interfaces that are sleek, intuitive and elevates user experience. I want to design interfaces in a way that users gain an experience they never realised they needed!</p>
                     <div style={{ display: "flex", flexDirection: "row" }}>
                         <button className="skills-button font-bold py-2 px-4 rounded" style={{ background: showSkills ? '#E7F8A3' : '#D7D3C0' }} onClick={() => { setShowSkills(true); setShowBackground(false) }}>
@@ -150,14 +152,57 @@ const HomePage = () => {
                             Background
                         </button>
                     </div>
-                    {showSkills && <div className="skillset w-[80%]" style={{ marginBottom: '8rem!important' }}>
-                        <ul className="show-bullets">
-                            <li>Programming Languages: <span className="skills-text">C, C++, Python, SQL, Typescript, JavaScript, D3.js, Java, HTML, CSS, Machine Learning, C# (basic)</span></li>
-                            <li>Frontend frameworks: <span className="skills-text">AngularJS, ReactJS, VueJS, Flutter (Dart)</span></li>
-                            <li>Tools: <span className="skills-text">VS Code, Figma, GitHub, Jenkins, Bitbucket, OpenShift, Elasticsearch, Firebase, Jupyter, PyTorch, Unity, Arduino</span></li>
-                            <li>Languages: <span className="skills-text">Native in English; Fluent in Malayalam, Intermediate in Hindi</span></li>
-                            <li>Others: <span className="skills-text">PrimeNg, PrimeFlex, GraphQL/Apollo Client, Tailwind CSS, Bootstrap, Material-UI, Scrum methodology</span></li>
-                        </ul>
+                    {showSkills && <div className="skillset flex h-[100%]">
+                        <Grid container spacing={2}>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Programming Languages: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">JavaScript, Typescript, Python, D3.js, HTML, CSS, C, C++, Java, SQL, C# (basic)</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Frontend frameworks: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">Angular.js, React.js, Vue.js (v3), Next.js, React Native, Flutter</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>UX Skills: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">Figma, Balsamiq, Miro, User Research, User Interviews, Usability Testing, Persona, Information Architecture, Interaction Design, User Journey Mapping, WCAG, Design Thinking, User-Centered Design, Responsive Design</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Database Management: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">MongoDB, Firebase/Firestore, MariaDB, Microsoft Azure, PostgreSQL, Elasticsearch</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>API Tools: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">GraphQL/Apollo Client, Postman, REST Api</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Tools: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">GitHub, Tableau, Jira, Jenkins, Bitbucket, OpenShift, JFrog, Spring Boot, Android Studio, Xcode, NPM, Webpack</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Libraries: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">Prime Components, ChartJs, AnyChart.js, AG Grid, Tailwind CSS, Bootstrap, Material-UI</span>
+                            </Grid>
+                            <Grid item xs={4} md={4} lg={3} className="skills-header-box">
+                                <div>Others: </div>
+                            </Grid>
+                            <Grid item xs={8} md={8} lg={9} className="skills-text-box">
+                                <span className="skills-text">VS Code, Unity, Arduino, Machine Learning, Jupyter, Scrum and Agile Methodologies</span>
+                            </Grid>
+                        </Grid>
                     </div>}
                     {showBackground && <div className="skillset w-[100%] sm:w-[100%] md:w-[100%] justify-center items-center flex flex-row sm:flex-col-reverse md:flex-col-reverse">
                         <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
@@ -205,7 +250,7 @@ const HomePage = () => {
                     </div>}
                 </div>
             </section>
-            <section ref={projectsRef} className="bg-[#FFFFFF] min-h-screen w-screen flex justify-center move-up">
+            <section ref={projectsRef} className="bg-[#FFFFFF] min-h-screen w-screen flex justify-center">
                 <div className="bg-[#F3E3EE] flex w-screen flex-row justify-evenly rounded-t-3xl">
                     <div className="flex flex-col mb-5 mt-5 items-center space-y-5 w-[100%]">
                         <div className="w-[80%]">

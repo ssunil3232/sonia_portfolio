@@ -148,6 +148,39 @@
 
 }
 
+.MuiGrid-container{
+  padding-left: 15px!important;
+  margin-top: 1rem!important;
+  margin-bottom: 1.2rem!important;
+}
+
+.skills-header-box {
+  /* background: #e7f8a363; */
+  border-radius: 5px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-bottom: 5px;
+}
+
+.skills-text-box {
+  background: #d7d3c066;
+  border-radius: 5px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-header-box {
+    padding-left: 0px!important;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .p-dock-action {
     height: 50px;
@@ -179,13 +212,27 @@
 }
 
 .profile-image {
-  width: 58rem;
-  height: 58rem;
-  border-radius: 50%;
+  width: 50rem;
+  height: 50rem;
+  /* border-radius: 50%; */
+}
+
+@media (max-width: 800px) {
+  .profile-image {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 .no-wrap {
   white-space: nowrap;
+}
+
+.emphasis-line {
+  text-decoration: underline;
+  text-decoration-color: #ff00008a;
+  text-decoration-thickness: 0.2rem;
+  text-decoration-skip-ink: none;
 }
 
 .profile-description {
@@ -273,6 +320,16 @@
 @media screen and (max-width: 1014px) {
   .sonia {
     font-size: 8rem;
+  }
+}
+
+.intro-header {
+  margin-top: 30px!important;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-header {
+    margin-top: 90px!important;
   }
 }
 
