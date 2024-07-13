@@ -5,6 +5,7 @@ import dbs from "../assets/dbs.svg";
 import nus from "../assets/nus.svg";
 import pslove from "../assets/pslove.svg";
 import aimpower from "../assets/aimpower.svg";
+import aiecd from "../assets/aiecd.svg";
 import location from "/src/img/location.svg";
 import linkedinlogo from "/src/img/linkedin.svg";
 import emaillogo from "../img/email.svg";
@@ -159,38 +160,45 @@ const HomePage = () => {
                         </ul>
                     </div>}
                     {showBackground && <div className="skillset w-[100%] sm:w-[100%] md:w-[100%] justify-center items-center flex flex-row sm:flex-col-reverse md:flex-col-reverse">
-                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] sm:mb-[10%]">
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
                             <img
                                 src={nus}
                                 alt="NUS Picture"
                                 className="object-contain"
                             />
                         </div>
-                        <div className="flex justify-center sm:w-[80%] md:w-[70%]">
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
                             <img
                                 src={pslove}
                                 alt="Pslove Picture"
                                 className="object-contain"
                             />
                         </div>
-                        <div className="flex justify-center sm:w-[80%] md:w-[70%]">
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
                             <img
                                 src={dbs}
                                 alt="DBS Picture"
                                 className="object-contain"
                             />
                         </div>
-                        <div className="flex justify-center sm:w-[80%] md:w-[70%]">
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
                             <img
                                 src={cornell}
                                 alt="Cornell Picture"
                                 className="object-contain"
                             />
                         </div>
-                        <div className="flex justify-center sm:w-[80%] md:w-[70%]">
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
                             <img
                                 src={aimpower}
                                 alt="AImpower Picture"
+                                className="object-contain"
+                            />
+                        </div>
+                        <div className="flex justify-center items-center sm:w-[80%] md:w-[70%] lg:mb-[5%] md:mb-[5%] sm:mb-[0%]">
+                            <img
+                                src={aiecd}
+                                alt="AI ECD"
                                 className="object-contain"
                             />
                         </div>
